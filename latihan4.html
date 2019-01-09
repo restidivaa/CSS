@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      .container{
+        width:50%;
+        height:200px;
+        overflow: auto;
+        margin-left: :0 auto;
+      }
+      .static{ position: static; border: 2px solid green; }
+      .relative{
+        position: relative;
+        border: 2px solid red;
+        left: 20px;
+        bottom: 0;
+      }
+      .absolute{ position: absolute; border: 2px solid blue; left: 20px; bottom: 40px; }
+      .fixed{ position: fixed; border: 2px solid black; bottom: 0; right:0; }
+      .sticky{
+        position: sticky;
+        border: 2px solid yellow;
+        top: 0;
+        left:20px;
+        background: darkblue;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <p class="sticky">
+        Ini adalah contoh dari posisi sticky
+      </p>
+      <p class="static">
+        <b>Ini adalah contoh dari position static</b> <br>
+        Alkisah, hiduplah seorang gadis cantik yang hidup di sebuah desa bersama ibunya yang seorang janda.
+        Walaupun sangat cantik, tapi tabiatnya begitu buruk. Kerjaannya hanya bersolek dan bermalas-malasan,
+        tak pernah sedikit pun mau membantu ibunya.
+        <br>
+        Tak hanya pemalas, gadis tersebut juga sangat manja.
+        Apa yang ia mau, semuanya harus tersedia.
+        Dia tak mempedulikan ibunya yang harus yang
+        kerja banting tulang hanya demi menuruti keinginannya.
+      </p>
+      <p class="realtive">
+        <b>Ini adalah contoh dari position relative</b> <br>
+        Pada suatu hari, mereka berdua pergi ke pasar.
+        Para pemuda desa yang melihat gadis cantik itu terpesona akan kecantikannya.
+        Sungguh pemandangan yang kontras sekali ketika melihat ibunya yang berjalan di belakang si gadis.
+        <br>
+        Kemudian, mendekatlah seorang pemuda dan bertanya kepadanya
+        apakah wanita yang di belakangnya itu ibunya. Karena malu,
+        gadis itu menjawab bahwa wanita tersebut bukan ibunya, melainkan pembantunya.
+        Sang ibu yang mendengar hal tersebut hanya bisa diam.
+      </p>
+      <p class="absolute">
+        <b>Ini adalah contoh dari position absolute</b> <br>
+        Tak hanya mengakui kalau sang ibu hanyalah seorang pembantu,
+        sepanjang perjalanan pun ia diperlakukan sama seperti budak.
+        Mungkin kalau sekali atau dua kali sang ibu bisa memahami,
+        akan tetapi banyak orang yang bertanya kepada gadis itu dan
+        jawabannya masih sama. Tentu saja hal itu membuat sang ibu sakit hati.
+        <br>
+        Tak dapat menahan diri, ibu tersebut berdoa.
+        Ia memohon kepda Tuhan untuk menghukum anaknya yang durhaka itu.
+        Doa sang ibu pun dikabulkan.
+        <br>
+        Tak lama setelah itu,
+        badan gadis cantik tersebut perlahan-lahan
+        menjadi mengeras menjadi batu. Dengan sangat menyesal
+        gadis itu menangis dan memohon ampun. Namun sayang semuanya
+        sudah terlanjur, permohonan maaf tersebut sudah tidak berguna
+        dan ia tetap menjadi batu.
+      </p>
+      <p class="fixed">
+        Ini merupakan contoh dari position fixed
+      </p>
+    </div>
+  </body>
+</html>
